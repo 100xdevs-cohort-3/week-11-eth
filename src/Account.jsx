@@ -1,5 +1,5 @@
 
-import { useAccount, useBalance, useDisconnect, useEnsAvatar, useEnsName } from 'wagmi'
+import { useAccount, useBalance, useDisconnect} from 'wagmi'
 
 export function Account() {
     const { address } = useAccount()
